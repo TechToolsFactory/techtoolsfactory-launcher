@@ -40,10 +40,11 @@
 }
 
 .grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
+  justify-content: center;
 }
 
 .card {
@@ -78,6 +79,9 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  font-weight: 600;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 3rem;
 }
 
 .center::before {
