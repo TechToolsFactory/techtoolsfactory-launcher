@@ -47,7 +47,7 @@ export default function Home() {
               Notre équipe <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Découvrer l&apos;équipe qui travaille derrière tous ces sites.
+              Découvrez l&apos;équipe qui travaille derrière tous ces sites.
             </p>
           </a>
         </div>
